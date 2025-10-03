@@ -12,8 +12,7 @@ import ClientDetails from './components/ClientDetails';
 import { supabase } from './lib/supabase';
 import { ArrowLeft, Bell } from 'lucide-react';
 import NotificationCenter from './components/NotificationCenter';
-import Dashboard from './components/Dashboard';
-
+import Dashboard from './components/DashBoard';
 function App() {
   const { user, loading, signIn, signUp, signOut } = useAuth();
   const [activeItem, setActiveItem] = useState('dashboard');
